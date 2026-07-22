@@ -1,7 +1,5 @@
 import random
 
-# I just need a second
-
 def print_grid(grid):
     for row in grid:
         for cell in row:
