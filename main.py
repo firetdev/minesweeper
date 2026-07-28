@@ -1,5 +1,7 @@
 import random
 
+# im just a kid and life is a nightmare
+
 def print_grid(grid):
     for row in grid:
         for cell in row:
