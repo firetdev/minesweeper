@@ -26,7 +26,7 @@ int main() {
     std::uniform_int_distribution<int> dist(0, 9);
     
     std::vector<std::vector<int>> grid(10, std::vector<int>(10, 0));
-    std::set<std::pair<int, int>> minePositions; 
+    std::set<std::pair<int, int>> minePositions;
 
     while (minePositions.size() < 10) {
         int x = dist(gen);
